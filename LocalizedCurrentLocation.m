@@ -51,6 +51,8 @@
         localizedString = [NSString stringWithString:[localizedStringDictionary valueForKey:@"en"]];
     }
     
+    [localizedStringDictionary release];
+    
     return localizedString;
 }
 
